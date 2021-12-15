@@ -24,7 +24,7 @@ function timerCycle() {
 
     milisecond = milisecond + 1;
 
-    if (milisecond == 60) {
+    if (milisecond == 1000) {
       sec = sec + 1;
       milisecond = 0;
     }
